@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #ffff;
+    --secondary-color: rgb(36, 0, 128);
+    --tertiary-color: black;
+}
+
+header div {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header div h5 {
+    flex: 1;
+}
+
+
+header div span {
+ flex: 2;
+ justify-content: left;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.answerText ol {
+    background: #252eda;
+    color: #bdf407;
+    justify-content: left;
+    padding: 10px;
+}
+
+
+
+
+main {
+    margin: auto;
+    padding: 20px 35px;
+    justify-content: center;
+    width: 60%;
+
+}
+
+main div {
+    text-align: center;
+    margin: 10px auto 0px auto;
+    padding: 5px;
+}
+
+main div h1 {
+    text-align: center;
+    margin: 10px auto 0px auto;
+    padding: 5px;
+}
+
+.answerText{
+    font-weight: bolder;
+}
